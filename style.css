@@ -51,7 +51,8 @@ body{
 }
 
 .top-content-text{
-        width: 1500px;    
+        display: flex;
+        flex-direction: column;   
 }
 
 .top-content-heading{
