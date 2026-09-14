@@ -10,8 +10,8 @@ body{
     font-size: 3em;
     
     display: flex;
+    justify-content: center;
 
-    border: solid 2px white;
 }
 
 
@@ -37,26 +37,46 @@ body{
 
 }
 
-.top-content button{
-    background-color: white;
-    color: black;
-}
-
 
 .top-content{
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 100px;
+
     color: white;
+
+}
+
+.top-content-text{
+        width: 1500px;    
 }
 
 .top-content-heading{
         font-weight: bold;
-        font-size: 70px;
+        font-size: 200px;
         color: white;
+        text-wrap: balance;
+        margin-bottom: 100px;
 
 }
 
-.top-content-info{
 
+.top-content button{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    font-size: 50px;
+    width: 300px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 10px;
 }
+
 
 .top-content button:hover{
     background-color: grey;
@@ -65,6 +85,6 @@ body{
 }
 
 .top img{
-    width: 500px;
-    height: 500px;
+    width: 1200px;
+    height: 1000px;
 }
