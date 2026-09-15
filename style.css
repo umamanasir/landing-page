@@ -1,23 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 body{
-    margin: 0px;
-    padding: 0px;
 
     background-color: rgb(6, 57, 101);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 3em;
     
     display: flex;
     justify-content: center;
+    flex-direction: column;
+
+
 
 }
 
 
 .nav-bar{
     display: flex;
-    flex: 1;
 
     justify-content: flex-end;
     color: white;
@@ -25,7 +32,6 @@ body{
     align-items: center;
     margin: 100px;
     justify-content: space-between;
-    border: white 2px solid;
 
 }
 
@@ -37,33 +43,33 @@ body{
 
 }
 
-
 .top-content{
     display: flex;
-    justify-content: flex-start;
-    align-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
     gap: 50px;
-    margin: 100px;
-
+    margin: 150px;
     color: white;
 
 }
 
-.top-content-text{
-        display: flex;
-        flex-direction: column;   
+.top-content-info{
+            width: 1500px;
 }
-
 .top-content-heading{
         font-weight: bold;
-        font-size: 200px;
+        font-size: 160px;
         color: white;
         text-wrap: balance;
         margin-bottom: 100px;
 
 }
-
+.top-content-text{
+        display: flex;
+        flex-direction: column;   
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
 
 .top-content button{
     background-color: blue;
@@ -77,7 +83,9 @@ body{
     box-shadow: none;
     border-radius: 10px;
 }
-
+.top-content-info{
+    margin-bottom: 50px;
+}
 
 .top-content button:hover{
     background-color: grey;
@@ -86,6 +94,71 @@ body{
 }
 
 .top img{
-    width: 1200px;
-    height: 1000px;
+    width: 1000px;
+    height: 800px;
+}
+
+
+.rndm-info-list{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 150px;
+    
+}
+.rndm-info-item{
+    max-width: 400px;   
+    justify-content: center;
+    text-align: center;
+}
+.rndm-info h2{
+    text-align: center;
+    margin: 100px;
+}
+
+.rndm-info img{
+    width: 350px;
+    height: 350px;
+    border: 3px solid blue ;
+    border-radius: 20px;
+}
+
+.rndm-info{
+    background-color: white;
+    width: 100%
+
+}
+
+.rndm-info-caption{
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.quote{
+    
+    flex-direction: column;
+    background-color: rgb(222, 218, 218);
+    color: black;
+    display: flex;
+    align-items: center;
+
+}
+
+.quote h2{
+    text-align: center;
+    font-size: 80;
+    width: 2000px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote p{
+    text-align: end;
+    margin-bottom: 100px;
+    font-weight: bold;
+    margin-left: 1800px;
+    
+
 }
