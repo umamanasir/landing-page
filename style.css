@@ -120,7 +120,7 @@ body{
 .rndm-info-list{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    /* align-items: center; */
     gap: 150px;
     margin: 100px;
     flex: 1;
@@ -137,8 +137,8 @@ body{
 
 
 .rndm-info img{
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     border: 3px solid blue ;
     border-radius: 20px;
 }
@@ -146,7 +146,6 @@ body{
 
 .rndm-info-caption{
     text-align: center;
-    text-wrap: wrap;
     font-size: 18px;
 }
 
@@ -157,6 +156,7 @@ body{
     color: #1F2937;
     display: flex;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -168,6 +168,8 @@ body{
     margin-bottom: 50px;
     font-weight: lighter;
     font-style: italic;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .quote p{
