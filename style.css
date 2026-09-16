@@ -51,7 +51,7 @@ body{
 .top-content{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     gap: 50px;
     margin: 150px;
     color: white;
@@ -120,9 +120,10 @@ body{
 .rndm-info-list{
     display: flex;
     justify-content: space-evenly;
-    align-content: center;
+    align-items: center;
     gap: 150px;
     margin: 100px;
+    flex: 1;
 
 }
 
@@ -130,13 +131,14 @@ body{
     max-width: 400px;   
     justify-content: center;
     text-align: center;
+    
 }
 
 
 
 .rndm-info img{
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     border: 3px solid blue ;
     border-radius: 20px;
 }
@@ -182,14 +184,14 @@ body{
     background-color: white;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .cta-btn{
     background-color: #3882F6;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     gap: 50px;
     margin: 50px;
 }
