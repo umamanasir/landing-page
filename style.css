@@ -4,7 +4,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 
@@ -48,6 +47,7 @@ body{
 .header-link{
     font-size: 18px;
 }
+
 .top-content{
     display: flex;
     justify-content: center;
@@ -105,10 +105,21 @@ body{
     height: 300px;
 }
 
+.rndm-info{
+    background-color: white;
+}
+
+.rndm-info h2{
+    text-align: center;
+    margin: 100px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
 
 .rndm-info-list{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-content: center;
     gap: 150px;
     margin: 100px;
@@ -121,13 +132,7 @@ body{
     text-align: center;
 }
 
-.rndm-info h2{
-    text-align: center;
-    margin: 100px;
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-}
+
 
 .rndm-info img{
     width: 150px;
@@ -136,12 +141,6 @@ body{
     border-radius: 20px;
 }
 
-.rndm-info{
-    background-color: white;
-    /* width: 100%; */
-    
-
-}
 
 .rndm-info-caption{
     text-align: center;
